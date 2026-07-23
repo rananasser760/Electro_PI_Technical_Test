@@ -58,8 +58,8 @@ git clone <repo-url>
 cd <repo-name>
 
 # Each section is isolated — set up and run independently
-cd section1_livekit_agent && pip install -r requirements.txt && python agent.py
-cd ../section2_langchain_rag && pip install -r requirements.txt && python rag.py
+cd section1_livekit_agent && pip install -r requirements.txt &&  python agent.py dev
+cd ../section2_langchain_rag && pip install -r requirements.txt && python demo.py
 cd ../section3_quantization && pip install -r requirements.txt && python quantize_and_benchmark.py
 cd ../section4_deployment && docker build -t ai-engineer-api . && docker run -p 8000:8000 ai-engineer-api
 ```
