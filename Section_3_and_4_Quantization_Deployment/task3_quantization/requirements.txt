@@ -1,0 +1,10 @@
+# Core (fp16 vs bitsandbytes int4) -- needs a CUDA GPU, e.g. Colab T4
+torch>=2.2
+transformers>=4.44
+accelerate>=0.33
+bitsandbytes>=0.43
+sentencepiece
+
+# Optional, only for gguf_benchmark.py (CPU-friendly, no GPU needed)
+# llama-cpp-python
+# huggingface_hub

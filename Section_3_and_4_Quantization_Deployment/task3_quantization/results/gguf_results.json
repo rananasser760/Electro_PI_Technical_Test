@@ -1,0 +1,44 @@
+{
+  "mode": "gguf_q4_k_m",
+  "model": "models/qwen2.5-1.5b-instruct-q4_k_m.gguf",
+  "gguf_file_size_gb": 1.117,
+  "avg_tokens_per_sec": 11.42,
+  "results": [
+    {
+      "prompt": "Explain the difference between a list and a tuple in Python in two sentences.",
+      "output": "A list is a mutable data structure that can be changed after creation, while a tuple is an immutable data structure that cannot be changed after creation.",
+      "new_tokens": 29,
+      "elapsed_sec": 2.564,
+      "tokens_per_sec": 11.31
+    },
+    {
+      "prompt": "Write a short haiku about autumn rain.",
+      "output": "Autumn's gentle rain,\nLeaves whispering underfoot,\nNature's soothing song.",
+      "new_tokens": 18,
+      "elapsed_sec": 1.884,
+      "tokens_per_sec": 9.56
+    },
+    
+    {
+      "prompt": "A customer says their food delivery is 40 minutes late. Write a brief, empathetic reply.",
+      "output": "I'm sorry to hear that your food delivery was late. I hope you were able to enjoy it despite the delay. Rest assured, we are working to improve our service and ensure that your experience is as quick and convenient as possible. Thank you for your understanding.",
+      "new_tokens": 53,
+      "elapsed_sec": 4.222,
+      "tokens_per_sec": 12.55
+    },
+    {
+      "prompt": "Summarize in one paragraph why quantization reduces a neural network's memory footprint.",
+      "output": "Quantization reduces a neural network's memory footprint by reducing the number of parameters in the network. This is achieved by mapping the continuous weights in the network to a discrete set of values, which can be stored in a smaller amount of memory. This reduction in the number of parameters allows for a more compact representation of the network, which in turn reduces the memory footprint of the model. Additionally, quantization can also reduce the computational cost of the network by reducing the number of operations required to perform forward and backward passes through the network.",
+      "new_tokens": 106,
+      "elapsed_sec": 7.855,
+      "tokens_per_sec": 13.49
+    },
+    {
+      "prompt": "Translate this sentence to French: \"The restaurant is closed on Mondays.\"",
+      "output": "Le restaurant est ferm\u00e9 les lundis.",
+      "new_tokens": 10,
+      "elapsed_sec": 0.979,
+      "tokens_per_sec": 10.21
+    }
+  ]
+}

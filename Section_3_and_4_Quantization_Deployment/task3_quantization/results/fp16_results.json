@@ -1,0 +1,44 @@
+{
+  "mode": "fp16",
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "load_memory_gb": 3.087,
+  "peak_memory_gb": 3.107,
+  "avg_tokens_per_sec": 22.42,
+  "results": [
+    {
+      "prompt": "Explain the difference between a list and a tuple in Python in two sentences.",
+      "output": "In Python, a list is an ordered collection of items that can be modified, while a tuple is an immutable sequence of items. Lists are defined using square brackets [], whereas tuples use parentheses ().",
+      "new_tokens": 39,
+      "elapsed_sec": 2.755,
+      "tokens_per_sec": 14.16
+    },
+    {
+      "prompt": "Write a short haiku about autumn rain.",
+      "output": "Autumn's gentle shower,\nLeaves whisper to the ground,\nNature's soft sigh.",
+      "new_tokens": 19,
+      "elapsed_sec": 0.773,
+      "tokens_per_sec": 24.56
+    },
+    {
+      "prompt": "A customer says their food delivery is 40 minutes late. Write a brief, empathetic reply.",
+      "output": "I'm sorry to hear that your order was delayed. I hope you're able to enjoy it soon and have a pleasant experience with our service. Please let me know if there's anything we can do to improve the situation for future deliveries.",
+      "new_tokens": 49,
+      "elapsed_sec": 1.883,
+      "tokens_per_sec": 26.03
+    },
+    {
+      "prompt": "Summarize in one paragraph why quantization reduces a neural network's memory footprint.",
+      "output": "Quantization is a technique used to reduce the memory footprint of neural networks by reducing the precision with which weights and activations are represented. By using fewer bits to represent these values, the amount of storage required for the model can be significantly reduced. This is particularly useful when deploying models on devices with limited resources such as mobile phones or embedded systems where high computational power is not available. Additionally, quantization helps in speeding up inference times since it requires less computation to perform operations on lower-precision data types. Overall, quantization enables more efficient use of hardware resources while maintaining acceptable levels of accuracy, making it an essential tool in modern deep learning applications.",
+      "new_tokens": 130,
+      "elapsed_sec": 5.694,
+      "tokens_per_sec": 22.83
+    },
+    {
+      "prompt": "Translate this sentence to French: 'The restaurant is closed on Mondays.'",
+      "output": "Le restaurant est ferm\u00e9 lundi.",
+      "new_tokens": 9,
+      "elapsed_sec": 0.367,
+      "tokens_per_sec": 24.5
+    }
+  ]
+}

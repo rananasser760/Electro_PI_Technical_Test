@@ -1,0 +1,44 @@
+{
+  "mode": "int4",
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "load_memory_gb": 1.18,
+  "peak_memory_gb": 1.222,
+  "avg_tokens_per_sec": 11.29,
+  "results": [
+    {
+      "prompt": "Explain the difference between a list and a tuple in Python in two sentences.",
+      "output": "In Python, a list is an ordered collection of items that can be modified, while a tuple is also an ordered collection of items but it cannot be modified after creation. Lists are represented with square brackets [], whereas tuples are represented with parentheses ().",
+      "new_tokens": 49,
+      "elapsed_sec": 4.373,
+      "tokens_per_sec": 11.2
+    },
+    {
+      "prompt": "Write a short haiku about autumn rain.",
+      "output": "Autumn's gentle shower,\nLeaves whisper in the cool drizzle,\nNature's symphony.",
+      "new_tokens": 21,
+      "elapsed_sec": 1.708,
+      "tokens_per_sec": 12.3
+    },
+    {
+      "prompt": "A customer says their food delivery is 40 minutes late. Write a brief, empathetic reply.",
+      "output": "I'm really sorry to hear that your order was delayed. I hope the restaurant can handle it and apologize for any inconvenience caused. Please let me know if there's anything else you need from our side. Thank you for understanding.",
+      "new_tokens": 47,
+      "elapsed_sec": 4.543,
+      "tokens_per_sec": 10.34
+    },
+    {
+      "prompt": "Summarize in one paragraph why quantization reduces a neural network's memory footprint.",
+      "output": "Quantization is a technique used to reduce the memory footprint of neural networks by converting floating-point numbers into integers or fixed-point numbers. This process involves mapping the range of values that can be represented by a floating-point number onto a smaller set of discrete values, typically within an 8-bit, 16-bit, or 32-bit integer format. By doing so, it significantly decreases the amount of storage required for the weights and activations in the neural network, thereby reducing its overall memory footprint without compromising performance. This makes quantized models more efficient and suitable for deployment on devices with limited computational resources such as smartphones and embedded systems.",
+      "new_tokens": 128,
+      "elapsed_sec": 11.196,
+      "tokens_per_sec": 11.43
+    },
+    {
+      "prompt": "Translate this sentence to French: 'The restaurant is closed on Mondays.'",
+      "output": "La maison de restauration est ferm\u00e9e les lundis.",
+      "new_tokens": 14,
+      "elapsed_sec": 1.251,
+      "tokens_per_sec": 11.19
+    }
+  ]
+}
