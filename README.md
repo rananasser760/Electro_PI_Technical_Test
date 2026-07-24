@@ -72,7 +72,7 @@ Every section can be run independently and is designed to be reviewable within ~
 ## ⚙️ Installation
 
 ```bash
-git clone <[repo-url](https://github.com/rananasser760/Electro_PI_Technical_Test.git)>
+git clone <https://github.com/rananasser760/Electro_PI_Technical_Test.git>
 cd <Electro_PI_Technical_Test>
 ```
 
