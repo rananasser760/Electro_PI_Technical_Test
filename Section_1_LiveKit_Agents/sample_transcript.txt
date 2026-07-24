@@ -1,0 +1,17 @@
+User (mock-STT text input): Hi, can you check on order A1001?
+Agent [tool_call]: get_order_status({'order_id': 'A1001'})
+Tool [tool_result]: Order A1001 from Sushi Go is currently 'out_for_delivery', estimated delivery in 12 minutes.
+Agent (mock-TTS text output): Your order A1001 is out for delivery and should arrive in 12 minutes.
+: 
+User (mock-STT text input): Great, thanks! Also please cancel order A1002, I changed my mind.
+Agent [tool_call]: get_order_status({'order_id': 'A1002'})
+Tool [tool_result]: Order A1002 from Burger Barn is currently 'preparing', estimated delivery in 25 minutes.
+Agent [tool_call]: cancel_order({'order_id': 'A1002', 'reason': 'changed my mind'})
+Tool [tool_result]: Order A1002 has been cancelled. Reason logged: 'changed my mind'.
+Agent (mock-TTS text output): Order A1002 has been cancelled since it hadn't shipped yet.
+: 
+User (mock-STT text input): What about order Z9999?
+Agent [tool_call]: get_order_status({'order_id': 'Z9999'})
+Tool [tool_result]: error: no order found with id 'Z9999'
+Agent (mock-TTS text output): I couldn't find any order with the ID Z9999. Can you double-check the order ID?
+: 

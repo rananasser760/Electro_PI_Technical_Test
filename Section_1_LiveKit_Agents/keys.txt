@@ -1,0 +1,6 @@
+$env:LIVEKIT_URL = "wss://your-project.livekit.cloud"
+$env:LIVEKIT_API_KEY = "your_livekit_api_key"
+$env:LIVEKIT_API_SECRET = "your_livekit_api_secret"
+$env:GROQ_API_KEY = "your_groq_key"
+$env:DEEPGRAM_API_KEY = "your_deepgram_key"
+$env:CARTESIA_API_KEY = "your_cartesia_key"
