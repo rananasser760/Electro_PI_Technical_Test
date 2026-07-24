@@ -1,0 +1,15 @@
+Q: How long do I have to request a refund after delivery?
+A: You have 48 hours to request a refund after delivery [1].
+Sources: refund_policy.md (chunk 0), refund_policy.md (chunk 3), delivery_times.md (chunk 2)
+
+Q: What should I do if I think someone accessed my account without permission?
+A: If you think someone accessed your account without permission, you should immediately change your password from the Account Settings screen and contact support to flag the account for review [2]. You can contact support by tapping the help icon in the app, or selecting an order and choosing "Report a problem", or using the general "Contact us" option in Account Settings for account-wide issues [3].
+Sources: account_security.md (chunk 0), account_security.md (chunk 1), faq.md (chunk 1)
+
+Q: Can I still change a driver's tip after the delivery is done?
+A: Yes, you can still change a driver's tip after the delivery is done, but only for up to 24 hours after the delivery is completed [2]. After 24 hours, the tip amount is finalized and can no longer be changed, although you can still increase the tip manually through your bank or card statement [2].
+Sources: driver_tips.md (chunk 0), driver_tips.md (chunk 1), driver_tips.md (chunk 3)
+
+Q: What's the best way to bake a chocolate lava cake?
+A: I don't have information about that in the provided documents.
+Sources: (none -- top match scored below the relevance threshold)

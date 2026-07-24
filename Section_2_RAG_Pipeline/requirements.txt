@@ -1,0 +1,13 @@
+langchain>=0.3
+langchain-community>=0.3
+langchain-text-splitters>=0.3
+langchain-core>=0.3
+faiss-cpu>=1.8
+scikit-learn>=1.4
+numpy>=1.26
+openai>=1.30
+
+# optional: only needed if you set USE_HF_EMBEDDINGS=1 for real neural
+# embeddings instead of the offline TF-IDF fallback
+# langchain-huggingface>=0.1
+# sentence-transformers>=3.0
