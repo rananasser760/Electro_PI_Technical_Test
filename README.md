@@ -72,8 +72,8 @@ Every section can be run independently and is designed to be reviewable within ~
 ## ⚙️ Installation
 
 ```bash
-git clone <repo-url>
-cd <repo-name>
+git clone <[repo-url](https://github.com/rananasser760/Electro_PI_Technical_Test.git)>
+cd <Electro_PI_Technical_Test>
 ```
 
 Each section has its **own** `requirements.txt` and is kept isolated on purpose — no shared global environment, so a reviewer can spin up only the section they want to check.
