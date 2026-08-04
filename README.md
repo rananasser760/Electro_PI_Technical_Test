@@ -24,7 +24,7 @@ This repository is my complete solution to the Electro Pi AI Engineer take-home 
 
 | # | Section | Skill Assessed |
 |---|---------|-----------------|
-| 1 | [LiveKit Agents](#1--section-1-livekit-agents-real-time-voice-ai) | Real-time voice AI, tool-calling, async pipelines |
+| 1 | [LiveKit Agents](https://github.com/rananasser760/Electro_PI_Technical_Test/tree/main/Section_1_LiveKit_Agents) | Real-time voice AI, tool-calling, async pipelines |
 | 2 | [LangChain / RAG](#2--section-2-langchain--rag) | Retrieval quality, hallucination guardrails, chain design |
 | 3 | [Quantization](#3--section-3-quantization) | Hands-on quantization, precision/speed/quality trade-offs |
 | 4 | [Model Deployment](#4--section-4-model-deployment) | Containerization, streaming, latency awareness |
