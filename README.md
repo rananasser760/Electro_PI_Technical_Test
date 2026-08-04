@@ -25,9 +25,9 @@ This repository is my complete solution to the Electro Pi AI Engineer take-home 
 | # | Section | Skill Assessed |
 |---|---------|-----------------|
 | 1 | [LiveKit Agents](https://github.com/rananasser760/Electro_PI_Technical_Test/tree/main/Section_1_LiveKit_Agents) | Real-time voice AI, tool-calling, async pipelines |
-| 2 | [LangChain / RAG](#2--section-2-langchain--rag) | Retrieval quality, hallucination guardrails, chain design |
-| 3 | [Quantization](#3--section-3-quantization) | Hands-on quantization, precision/speed/quality trade-offs |
-| 4 | [Model Deployment](#4--section-4-model-deployment) | Containerization, streaming, latency awareness |
+| 2 | [LangChain / RAG](https://github.com/rananasser760/Electro_PI_Technical_Test/tree/main/Section_2_RAG_Pipeline) | Retrieval quality, hallucination guardrails, chain design |
+| 3 | [Quantization](https://github.com/rananasser760/Electro_PI_Technical_Test/tree/main/Section_3_and_4_Quantization_Deployment/task3_quantization) | Hands-on quantization, precision/speed/quality trade-offs |
+| 4 | [Model Deployment](https://github.com/rananasser760/Electro_PI_Technical_Test/tree/main/Section_3_and_4_Quantization_Deployment/task4_deployment) | Containerization, streaming, latency awareness |
 
 Every section can be run independently and is designed to be reviewable within ~10 minutes of cloning. Each section's own `README.md` also contains the required half-page write-up for that section, in place of a separate top-level notes file.
 
